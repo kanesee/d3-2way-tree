@@ -1,50 +1,35 @@
 {
     "name": "Airlines",
-    "isparent": false,
     "parents": [
         {
             "name": "Aviation",
-            "isparent": true,
-            "parents": null,
-            "children": null
+            "isparent": true
         },
         {
             "name": "Transparent_companies",
-            "isparent": true,
-            "parents": null,
-            "children": null
+            "isparent": true
         },
         {
             "name": "Transport_operators",
-            "isparent": true,
-            "parents": null,
-            "children": null
+            "isparent": true
         }
     ],
     "children": [
         {
             "name": "Airline_alliances",
-            "isparent": false,
-            "parents": null,
-            "children": null
+            "isparent": false
         },
         {
             "name": "Airlines_by_continent",
-            "isparent": false,
-            "parents": null,
-            "children": null
+            "isparent": false
         },
         {
             "name": "Airlines_by_type",
-            "isparent": false,
-            "parents": null,
-            "children": null
+            "isparent": false
         },
         {
             "name": "Defunct_airlines",
-            "isparent": false,
-            "parents": null,
-            "children": null
+            "isparent": false
         }
     ]
 }
