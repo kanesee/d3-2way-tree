@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>2-Way Tree</title>
+    <link rel="stylesheet" href="asset/css/d3/d3-collapsible-tree.css">
+
+
+    <script type="text/javascript" src="asset/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="asset/js/d3/d3.min.js"></script>
+    <script type="text/javascript" src="asset/js/d3/d3.layout.js"></script>
+
+  </head>
+  <body>
+
+    <h1 align="center">2-Way Tree</h1>
+
+    <div id="categoryHierarchy"></div>
+
+    <script type="text/javascript" src="asset/js/d3/concept-graph.js"></script>
+
+    <script>
+      $(document).ready(function(event) {
+        var tree = CollapsibleTree("#categoryHierarchy");
+        tree.init('sample.json');
+      });
+
+
+    </script>
+  </body>
+</html>
